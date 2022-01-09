@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+        body,html{
+            margin: 0;
+            font: 16px "lato";
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo{
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3{
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+        /*Efeito Parallax
+        -------------------------*/
+        .caixa1, .caixa2,.caixa3,.caixa4{ 
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1{
+            background-image: url(imagem1.jpg);
+        }
+
+        .caixa2{
+            background-image: url(imagem2.jpg);
+        }
+
+        .caixa3{
+            background-image: url(imagem3.jpg);
+        }
+
+        .caixa4{
+            background-image: url(imagem4.jpg);
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+
+            
+        }
+
+        .conteudo-titulo  span.titulo{
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    </style>
+    <title>Parallax</title>
+</head>
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">Passeio de Balãoes</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci veniam nostrum eligendi hic facere repellendus deleniti tenetur in, ipsam, maxime aliquam doloremque, iste quidem repellat nam id? Iusto, incidunt porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, consequuntur quasi autem repellat omnis aperiam architecto consectetur illum, assumenda minus ratione eaque ad? Cumque ex magni hic nemo voluptatem pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi quibusdam velit? Repudiandae perspiciatis quisquam quae deleniti fugit in! Voluptate fugiat distinctio laudantium labore ex? Beatae vitae impedit eligendi quasi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat cupiditate maiores veniam? Itaque quos, minima magnam architecto blanditiis inventore vel nesciunt ut mollitia voluptatum sit, illum qui dolor aliquam sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam, praesentium distinctio quas beatae similique placeat error. Vel earum nam minus. Veniam sequi rem aut ipsam perferendis facere saepe excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quisquam eius tempore amet est, molestias qui, nobis architecto alias quis magnam sed veniam magni corrupti fuga laudantium illo ipsa eveniet?</p>
+    </div>
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pegando a estrada</span>
+        </div>
+    </div>    
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto in dicta praesentium reiciendis labore debitis aspernatur, ipsam aliquam, maxime nostrum quia quos neque enim vero quam suscipit qui. Pariatur?</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos modi id repudiandae consequuntur sapiente alias dignissimos ullam tenetur neque libero aliquam numquam, soluta rerum velit, sequi, impedit ad quis!</p>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pôr do Sol</span>
+        </div>
+    </div>    
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>    
+</body>
+</html>
